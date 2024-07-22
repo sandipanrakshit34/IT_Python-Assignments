@@ -1,0 +1,5 @@
+s1 = set(input("Enter first string: ").split())
+s2 = set(input("enter second string: ").split())
+print(s1.intersection(s2))
+print(s1.union(s2))
+print(s1.difference(s2))
